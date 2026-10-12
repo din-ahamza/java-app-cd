@@ -12,5 +12,3 @@ spec:
       targetPort: 8090
       nodePort: 30809
   type: NodePort
-
-
