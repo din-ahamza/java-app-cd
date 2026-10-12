@@ -18,6 +18,7 @@ spec:
       containers:
       - name: java-app
         image: dinahamza/depi-java:latest
+        command: ["/bin/sh", "-c", "while true; do sleep 30; done"]
         ports:
         - containerPort: 8090 
         envFrom:
