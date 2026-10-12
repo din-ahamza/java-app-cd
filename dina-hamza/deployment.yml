@@ -2,7 +2,7 @@ apiVersion: apps/v1
 Kind: Deployment
 metadata:
     name: java-app
-    namespace: java-ns
+    namespace: dinahamza
     labels:
         app: java-app
 spec:
