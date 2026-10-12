@@ -10,7 +10,7 @@ spec:
     - protocol: TCP
       port: 8090
       targetPort: 8090
-      nodePort: 30263
+      nodePort: 30809
   type: NodePort
 
 
