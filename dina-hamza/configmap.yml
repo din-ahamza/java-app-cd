@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: java-app-config
+  namespace: java-ns
+data:
+  APP_NAME: "java-app"
